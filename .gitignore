@@ -1,0 +1,26 @@
+
+# Python virtual environments
+backend/.venv/
+backend/venv/
+.venv/
+venv/
+
+# Node dependencies
+frontend/node_modules/
+node_modules/
+
+# Build and cache
+dist/
+build/
+__pycache__/
+*.pyc
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
